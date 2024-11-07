@@ -1,0 +1,3 @@
+This is a godot plugin that implements software cursors. It is a small plugin that aims to be simple and easely expandable.
+
+A software cursor is a cursor implemented by an application instead of working in the window manager layer. They are more flexible than wm cursors as they have access to any tool provided by the game engine. However they may not be positioned exactly where the cursor actually is (they may be one frame behind). This might be an issue if there is a need for exact mouse position precision.
